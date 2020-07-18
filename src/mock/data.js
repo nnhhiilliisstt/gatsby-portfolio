@@ -9,49 +9,50 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi I am',
   name: 'Kumar Aditya',
-  subtitle: '',
+  subtitle: 'I am a full stack developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: ' Hey! I am Kumar Aditya',
+  paragraphTwo:
+    'Full stack developer based in India. I build software using React, javascript and flutter .',
+  paragraphThree: 'I am currently pursuing my Engineering degree in Computer Science from SMVDU.',
+  resume: 'https://drive.google.com/file/d/1GG9lNSB6bG9mbUvJdyQa9Y5jccBH2bOO/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robots.png',
+    title: 'Robo Friends',
+    info: 'Find robot friends to escape your sad and meaningless life,made with React',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://nnhhiilliisstt.github.io/robofriends/',
+    repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'folio.png',
+    title: 'Flutter Portfolio',
+    info: 'portfolio website  for developers using flutter web',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/nnhhiilliisstt/flutterPortfolio',
+    repo: 'https://github.com/nnhhiilliisstt/flutterPortfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'bge.png',
+    title: 'Background Generator',
+    info: 'Generate gradient style color scheme for your webpages using this website',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://nnhhiilliisstt.github.io/Background-Generator/',
+    repo: 'https://github.com/nnhhiilliisstt/Background-Generator', // if no repo, the button will not show up
   },
 ];
 
@@ -68,27 +69,32 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Import_honesty',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/niihhiilliisstt/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/kumar-aditya-77a2b4194/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nnhhiilliisstt',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/adityakomaar/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
