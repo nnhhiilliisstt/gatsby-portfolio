@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi I am',
+  title: 'Hi, I am',
   name: 'Kumar Aditya',
   subtitle: 'I am a full stack developer',
   cta: '',
@@ -29,12 +29,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'smart.png',
+    title: 'Smart Brain',
+    info: 'Detect human faces, made using react and nodejs',
+    info2: '',
+    url: 'https://nnhhiilliisstt.github.io/robofriends/',
+    repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'robots.png',
     title: 'Robo Friends',
     info: 'Find robot friends to escape your sad and meaningless life,made with React',
     info2: '',
-    url: 'https://nnhhiilliisstt.github.io/robofriends/',
-    repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
+    url: 'https://github.com/nnhhiilliisstt/backend-smart-brain',
+    repo: 'https://github.com/nnhhiilliisstt/smart-brain', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -53,6 +62,15 @@ export const projectsData = [
     info2: '',
     url: 'https://nnhhiilliisstt.github.io/Background-Generator/',
     repo: 'https://github.com/nnhhiilliisstt/Background-Generator', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '1.jpg',
+    title: 'Games using pygame',
+    info: 'classic games like hangman, snake and tetris using pygame',
+    info2: '',
+    url: 'https://github.com/nnhhiilliisstt/GAMES',
+    repo: 'https://github.com/nnhhiilliisstt/GAMES', // if no repo, the button will not show up
   },
 ];
 
