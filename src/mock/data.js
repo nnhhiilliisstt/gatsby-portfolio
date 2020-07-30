@@ -33,8 +33,8 @@ export const projectsData = [
     title: 'Smart Brain',
     info: 'Detect human faces, made using react and nodejs',
     info2: '',
-    url: 'https://github.com/nnhhiilliisstt/smart-brain',
-    repo: 'https://github.com/nnhhiilliisstt/backend-smart-brain', // if no repo, the button will not show up
+    url: 'https://nnhhiilliisstt.github.io/smart-brain/',
+    repo: 'https://github.com/nnhhiilliisstt/smart-brain', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
