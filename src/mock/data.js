@@ -51,7 +51,7 @@ export const projectsData = [
     title: 'Flutter Portfolio',
     info: 'portfolio website  for developers using flutter web',
     info2: '',
-    url: 'https://github.com/nnhhiilliisstt/flutterPortfolio',
+    url: 'https://nnhhiilliisstt.github.io/flutterPortfolio/#/',
     repo: 'https://github.com/nnhhiilliisstt/flutterPortfolio', // if no repo, the button will not show up
   },
   {
