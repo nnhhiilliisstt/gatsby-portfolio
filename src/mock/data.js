@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'Full stack developer based in India. I build software using React, javascript and flutter .',
   paragraphThree: 'I am currently pursuing my Engineering degree in Computer Science from SMVDU.',
-  resume: 'https://drive.google.com/file/d/1GG9lNSB6bG9mbUvJdyQa9Y5jccBH2bOO/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1VmQSVLvFRjRhQgOWsM3DzVw5MQJLEG7F/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -38,13 +38,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'robots.png',
-    title: 'Robo Friends',
-    info: 'Find robot friends to escape your sad and meaningless life,made with React',
+    img: 'covid19.png',
+    title: 'COVID-19 Tracker',
+    info:
+      'COVID-19 tracker that tracks number of cases, made using React.js, Chart.js and Material UI',
     info2: '',
-    url: 'https://nnhhiilliisstt.github.io/robofriends/',
-    repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
+    url: 'https://nnhhiilliisstt.github.io/corona_tracker/',
+    repo: 'https://github.com/nnhhiilliisstt/corona_tracker', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
     img: 'folio.png',
@@ -62,6 +64,16 @@ export const projectsData = [
     info2: '',
     url: 'https://nnhhiilliisstt.github.io/Background-Generator/',
     repo: 'https://github.com/nnhhiilliisstt/Background-Generator', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'robots.png',
+    title: 'Robo Friends',
+    info: 'Find robot friends to escape your sad and meaningless life,made with React',
+    info2: '',
+    url: 'https://nnhhiilliisstt.github.io/robofriends/',
+    repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
