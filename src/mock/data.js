@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, I am',
   name: 'Kumar Aditya',
-  subtitle: 'I am a full stack developer',
+  subtitle: 'I am a Front End developer',
   cta: '',
 };
 
@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: ' Hey! I am Kumar Aditya',
   paragraphTwo:
-    'Full stack developer based in India. I build software using React, javascript and flutter .',
+    'Front end developer based in India. I build software using React, javascript and flutter .',
   paragraphThree: 'I am currently pursuing my Engineering degree in Computer Science from SMVDU.',
-  resume: 'https://drive.google.com/file/d/1VmQSVLvFRjRhQgOWsM3DzVw5MQJLEG7F/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1BaB8ewoHZ_47G8SlqmHYe8_IrnJqgccz/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
