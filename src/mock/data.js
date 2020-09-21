@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'Front end developer based in India. I build software using React, javascript and flutter .',
   paragraphThree: 'I am currently pursuing my Engineering degree in Computer Science from SMVDU.',
-  resume: 'https://drive.google.com/file/d/1BaB8ewoHZ_47G8SlqmHYe8_IrnJqgccz/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1MqJbopugtq2ZANziivezsyxntRY2m1ji/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
