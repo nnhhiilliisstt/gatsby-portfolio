@@ -58,6 +58,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'codepen.png',
+    title: 'CodePen Clone',
+    info: 'CodePen Clone using react',
+    info2: '',
+    url: 'https://nnhhiilliisstt.github.io/React-CodePen-Clone/',
+    repo: 'https://github.com/nnhhiilliisstt/React-CodePen-Clone', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'bge.png',
     title: 'Background Generator',
     info: 'Generate gradient style color scheme for your webpages using this website',
@@ -74,15 +83,6 @@ export const projectsData = [
     info2: '',
     url: 'https://nnhhiilliisstt.github.io/robofriends/',
     repo: 'https://github.com/nnhhiilliisstt/robofriends', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: '1.jpg',
-    title: 'Games using pygame',
-    info: 'classic games like hangman, snake and tetris using pygame',
-    info2: '',
-    url: 'https://github.com/nnhhiilliisstt/GAMES',
-    repo: 'https://github.com/nnhhiilliisstt/GAMES', // if no repo, the button will not show up
   },
 ];
 
