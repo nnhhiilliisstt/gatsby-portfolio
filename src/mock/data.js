@@ -46,6 +46,16 @@ export const projectsData = [
     url: 'https://nnhhiilliisstt.github.io/corona_tracker/',
     repo: 'https://github.com/nnhhiilliisstt/corona_tracker', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'icsgdd.png',
+    title: 'ICSGDD Website',
+    info:
+      'Developed the website for ICSGDD(International Consortium for Spinal Genetics, Development and Disease)',
+    info2: '',
+    url: 'https://www.icsgdd.org/',
+    repo: '', // if no repo, the button will not show up
+  },
 
   {
     id: nanoid(),
